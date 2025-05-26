@@ -42,6 +42,8 @@
   "akamonkai_japanese_school": "Akamonkai Japanese Language School",
 
   "projects_title": "Projects",
+  "presentation_title": "Entrepreneur Presentation",
+  "presentation_desc": "My entrepreneurship presentation at Chiba Mode Business College, delivered in Japanese",
   "snake_game_title": "Snake Game",
   "snake_description": "Classic snake game made with pure HTML/CSS/JavaScript.",
   "play_button": "Play Now",
