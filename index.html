@@ -119,18 +119,29 @@
   <h2 data-i18n="projects_title">Projects</h2>
   <div class="projects-grid">
 
-    <!-- Entrepreneur Presentation Video -->
-    <div class="project-item project-video">
-      <video 
-        src="assets/videos/presen_video.mp4" 
-        controls 
-        poster="assets/images/presen_video.jpg" 
-        class="project-video-player"
-        aria-label="Entrepreneur Presentation Video"
-      ></video>
+    <!-- Entrepreneur Presentation Video (YouTube embed) -->
+    <div class="project-item project-video standout-video">
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/9p-opVgInaQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="project-video-player"
+          aria-label="Entrepreneur Presentation Video"
+        ></iframe>
+      </div>
       <h3 data-i18n="presentation_title">Entrepreneur Presentation</h3>
-      <p data-i18n="presentation_desc">Presentation video showcasing the entrepreneurial idea.</p>
-      <a href="assets/videos/presen_video.mp4" target="_blank" class="btn" data-i18n="view_full_video">View Full Video</a>
+      <p data-i18n="presentation_desc">
+        My entrepreneurship presentation at Chiba Mode Business College, delivered in Japanese.
+      </p>
+      <a
+        href="https://youtu.be/9p-opVgInaQ"
+        target="_blank"
+        class="btn youtube-btn"
+        data-i18n="view_full_video"
+        rel="noopener noreferrer"
+      >▶ View Full Video on YouTube</a>
     </div>
 
     <!-- Snake Game -->
@@ -146,7 +157,13 @@
       <img src="assets/images/resume-site.jpg" alt="Portfolio Website" />
       <h3 data-i18n="portfolio_title">Portfolio Website</h3>
       <p data-i18n="portfolio_desc">A multilingual personal site with embedded game and live chat.</p>
-      <a href="https://portfove.vercel.app" class="btn" data-i18n="view_more" target="_blank" rel="noopener noreferrer">View More</a>
+      <a
+        href="https://portfove.vercel.app"
+        class="btn"
+        data-i18n="view_more"
+        target="_blank"
+        rel="noopener noreferrer"
+      >View More</a>
     </div>
 
   </div>
